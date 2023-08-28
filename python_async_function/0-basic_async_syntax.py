@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""random delay"""
 
 import asyncio
 import random
