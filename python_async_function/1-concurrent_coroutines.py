@@ -16,6 +16,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
 
     for _ in range(n):
         list_delay.append(wait_random(max_delay))
+    # umpacking operator "*" to pass all list_delay elements as arguments
     results = await asyncio.gather(*list_delay)
 
     for i in range(n - 1):
