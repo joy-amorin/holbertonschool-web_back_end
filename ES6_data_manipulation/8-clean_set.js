@@ -8,7 +8,7 @@ export default function cleanSet(set, startString) {
     }
     return '';
   });
-    // filterArray: remove the hypen at the end of the string
+    // filterArray: remove the hyphen at the end of the string
   const filterArray = resultArray.filter((value) => value !== '');
   return filterArray.join('-');
 }
