@@ -40,4 +40,3 @@ class Server:
         pagination = index_range(page, page_size)
         self.dataset()
         return self.__dataset[pagination[0]:pagination[1]]
-    
